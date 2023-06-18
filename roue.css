@@ -46,3 +46,39 @@ body{
     background-color: #3f51b5;
     left: 50%;
 }
+
+.container .two{
+    background-color: #ffd000;
+    transform: rotate(45deg);
+}
+
+.container .three{
+    background-color: #e91e63;
+    transform: rotate(90deg);
+}
+
+.container .four{
+    background-color: #4caf50;
+    transform: rotate(135deg);
+}
+
+.container .five{
+    background-color: #009688;
+    transform: rotate(180deg);
+}
+
+.container .six{
+    background-color: #795548;
+    transform: rotate(225deg);
+}
+
+.container .seven{
+    background-color: #9c27b0;
+    transform: rotate(270deg);
+}
+
+.container .eight{
+    background-color: #f44336;
+    transform: rotate(315deg);
+}
+
