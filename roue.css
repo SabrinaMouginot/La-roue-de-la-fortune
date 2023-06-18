@@ -5,10 +5,18 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: #34495e;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
     overflow: hidden;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: #ccc;
+    border-radius: 50%;
+    border: 15px solid #dde;
 }
