@@ -2,7 +2,13 @@
     box-sizing:border-box;
 }
 
-body{
+/* body{
+
+
+
+} */
+
+.main{
     margin: 0;
     padding: 0;
     background-color: #34495e;
@@ -39,7 +45,6 @@ body{
     font-weight: bold;
     font-family: sans-serif;
     color: #fff;
-    /* left: 50%; */
     left: 135px;
 }
 
@@ -65,12 +70,12 @@ body{
 }
 
 .container .five{
-    background-color: #009688;
+    background-color: #795548;
     transform: rotate(180deg);
 }
 
 .container .six{
-    background-color: #795548;
+    background-color: #009688;
     transform: rotate(225deg);
 }
 
