@@ -1,8 +1,8 @@
-let wheel = document.querySelector('.wheel');
+let container = document.querySelector('.wheel');
 let btn = document.getElementById('spin');
 let number = Math.ceil(Math.random()*1000);
 
 btn.onclick = function () {
-    wheel.style.transform = "rotate(" + number + "deg)";
+    container.style.transform = "rotate(" + number + "deg)";
     number += Math.ceil(Math.random()*1000);
 }
