@@ -17,6 +17,7 @@
     width: 100%;
     max-width: 500px;
     margin-inline: auto;
+    overflow: hidden;
 }
 
 .wheel {
@@ -30,7 +31,7 @@
     transition: transform 5s;
 }
 
-.wheel > div {
+.wheel>div {
     position: absolute;
     top: 0;
     left: 28.725%;
